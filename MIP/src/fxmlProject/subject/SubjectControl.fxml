@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="183.0" layoutY="134.0" mnemonicParsing="false" onAction="#goAddNewRegistry" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Adauga nota" textFill="#1b0101">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="183.0" layoutY="232.0" mnemonicParsing="false" onAction="#goRegistryList" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Vezi note" textFill="#110101">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="468.0" layoutY="339.0" mnemonicParsing="false" onAction="#closeScene" prefWidth="100.0" style="-fx-background-color: #2e38ff;" text="BACK" textFill="#140101">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
