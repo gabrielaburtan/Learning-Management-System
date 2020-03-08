@@ -11,42 +11,42 @@
    <center>
       <AnchorPane prefHeight="400.0" prefWidth="623.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="586.0" layoutY="275.0" mnemonicParsing="false" onAction="#goTeachersList" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Vezi profesori" textFill="#1b0101" AnchorPane.rightAnchor="14.0">
+            <Button layoutX="586.0" layoutY="275.0" mnemonicParsing="false" onAction="#goTeachersList" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="See teachers" textFill="#1b0101" AnchorPane.rightAnchor="14.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="31.0" layoutY="158.0" mnemonicParsing="false" onAction="#goAddNewTeacher" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Adauga profesor" textFill="#1e0101" AnchorPane.leftAnchor="31.0">
+            <Button layoutX="31.0" layoutY="158.0" mnemonicParsing="false" onAction="#goAddNewTeacher" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Add teacher" textFill="#1e0101" AnchorPane.leftAnchor="31.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="31.0" layoutY="395.0" mnemonicParsing="false" onAction="#goAddNewSubject" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Adauga materie" textFill="#170101" AnchorPane.leftAnchor="31.0">
+            <Button layoutX="31.0" layoutY="395.0" mnemonicParsing="false" onAction="#goAddNewSubject" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Add subject" textFill="#170101" AnchorPane.leftAnchor="31.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="586.0" layoutY="158.0" mnemonicParsing="false" onAction="#goListSubjects" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Vezi materii" textFill="#1e0202" AnchorPane.rightAnchor="14.0">
+            <Button layoutX="586.0" layoutY="158.0" mnemonicParsing="false" onAction="#goListSubjects" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="See subjects" textFill="#1e0202" AnchorPane.rightAnchor="14.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="586.0" layoutY="45.0" mnemonicParsing="false" onAction="#goListProfile" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Vezi profile" textFill="#1e0202" AnchorPane.rightAnchor="14.0">
+            <Button layoutX="586.0" layoutY="45.0" mnemonicParsing="false" onAction="#goListProfile" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="See profiles" textFill="#1e0202" AnchorPane.rightAnchor="14.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="31.0" layoutY="45.0" mnemonicParsing="false" onAction="#goAddNewProfile" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Adauga profil" textFill="#220202" AnchorPane.leftAnchor="31.0">
+            <Button layoutX="31.0" layoutY="45.0" mnemonicParsing="false" onAction="#goAddNewProfile" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Add profile" textFill="#220202" AnchorPane.leftAnchor="31.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="586.0" layoutY="395.0" mnemonicParsing="false" onAction="#goGroupList" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Vezi grupe" textFill="#140101" AnchorPane.rightAnchor="14.0">
+            <Button layoutX="586.0" layoutY="395.0" mnemonicParsing="false" onAction="#goGroupList" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="See groups" textFill="#140101" AnchorPane.rightAnchor="14.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="31.0" layoutY="275.0" mnemonicParsing="false" onAction="#goAddNewGroup" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Adauga grupe" textFill="#170101" AnchorPane.leftAnchor="31.0">
+            <Button layoutX="31.0" layoutY="275.0" mnemonicParsing="false" onAction="#goAddNewGroup" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2e38ff;" text="Add group" textFill="#170101" AnchorPane.leftAnchor="31.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>

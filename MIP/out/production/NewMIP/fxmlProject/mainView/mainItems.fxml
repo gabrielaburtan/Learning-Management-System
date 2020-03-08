@@ -16,7 +16,7 @@
    <center>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="561.0" layoutY="434.0" text="ADMINISTRATIE" textFill="#2e38ff">
+            <Label layoutX="561.0" layoutY="434.0" text="ADMIN" textFill="#2e38ff" translateX="50.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
@@ -31,12 +31,12 @@
                   <Image url="@pictures/teacher2.png" />
                </image>
             </ImageView>
-            <Label layoutX="352.0" layoutY="434.0" text="CATALOG" textFill="#2e38ff">
+            <Label layoutX="352.0" layoutY="434.0" text="TEACHERS" textFill="#2e38ff" translateX="-5.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="58.0" layoutY="434.0" text="GESTIONARE STUDENTI" textFill="#2e38ff">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="58.0" layoutY="434.0" text="STUDENTS" textAlignment="CENTER" textFill="#2e38ff" translateX="55.0">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
@@ -46,7 +46,7 @@
                   <Image url="@pictures/UNIVTB-01.png" />
                </image>
             </ImageView>
-            <Button alignment="BOTTOM_CENTER" layoutX="309.0" layoutY="297.0" mnemonicParsing="false" onAction="#goTeacherScene" opacity="0.0" prefHeight="172.0" prefWidth="180.0" style="-fx-background-color: #2e38ff;" text="CATALOG" textAlignment="CENTER" textFill="#0f021e">
+            <Button alignment="BOTTOM_CENTER" layoutX="309.0" layoutY="297.0" mnemonicParsing="false" onAction="#goTeacherScene" opacity="0.0" prefHeight="172.0" prefWidth="180.0" style="-fx-background-color: #2e38ff;" text="TEACHERS" textAlignment="CENTER" textFill="#0f021e">
                <font>
                   <Font name="Arial Rounded MT Bold" size="21.0" />
                </font>
@@ -61,7 +61,7 @@
                   <Image url="@pictures/grad-emoji.png" />
                </image>
             </ImageView>
-            <Button alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="51.0" layoutY="295.0" mnemonicParsing="false" onAction="#goStudentScene" prefHeight="188.0" prefWidth="223.0" style="-fx-background-color: #2e38ff; -fx-opacity: 0;" text="GESTIONARE STUDENTI" textAlignment="CENTER" textFill="#05000a" textOverrun="WORD_ELLIPSIS" wrapText="true">
+            <Button alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="56.0" layoutY="297.0" mnemonicParsing="false" onAction="#goStudentScene" prefHeight="188.0" prefWidth="223.0" style="-fx-background-color: #2e38ff; -fx-opacity: 0;" textAlignment="CENTER" textFill="#05000a" textOverrun="WORD_ELLIPSIS" wrapText="true">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>

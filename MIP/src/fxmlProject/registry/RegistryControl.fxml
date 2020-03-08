@@ -11,12 +11,12 @@
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="219.0" layoutY="306.0" mnemonicParsing="false" onAction="#goAddNewRegistry" prefHeight="50.0" prefWidth="392.0" style="-fx-background-color: #2e38ff;" text="Adauga nota" textFill="#110101">
+            <Button layoutX="219.0" layoutY="306.0" mnemonicParsing="false" onAction="#goAddNewRegistry" prefHeight="50.0" prefWidth="392.0" style="-fx-background-color: #2e38ff;" text="Add grade" textFill="#110101">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="219.0" layoutY="411.0" mnemonicParsing="false" onAction="#goRegistryList" prefHeight="50.0" prefWidth="392.0" style="-fx-background-color: #2e38ff;" text="Vezi note" textFill="#140101">
+            <Button layoutX="219.0" layoutY="411.0" mnemonicParsing="false" onAction="#goRegistryList" prefHeight="50.0" prefWidth="392.0" style="-fx-background-color: #2e38ff;" text="See grades" textFill="#140101">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>

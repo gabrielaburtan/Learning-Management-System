@@ -11,12 +11,12 @@
    <center>
       <AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="239.0" layoutY="333.0" mnemonicParsing="false" onAction="#goAddStudentScene" prefHeight="50.0" prefWidth="337.0" style="-fx-background-color: #2e38ff;" text="Adauga student" textAlignment="CENTER" textFill="#170101" textOverrun="WORD_ELLIPSIS">
+            <Button layoutX="239.0" layoutY="333.0" mnemonicParsing="false" onAction="#goAddStudentScene" prefHeight="50.0" prefWidth="337.0" style="-fx-background-color: #2e38ff;" text="Add student" textAlignment="CENTER" textFill="#170101" textOverrun="WORD_ELLIPSIS">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="240.0" layoutY="411.0" mnemonicParsing="false" onAction="#goStudentListScene" prefHeight="50.0" prefWidth="336.0" style="-fx-background-color: #2e38ff;" text="Lista studenti" textFill="#1b0101">
+            <Button layoutX="240.0" layoutY="411.0" mnemonicParsing="false" onAction="#goStudentListScene" prefHeight="50.0" prefWidth="336.0" style="-fx-background-color: #2e38ff;" text="See students" textFill="#1b0101">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
